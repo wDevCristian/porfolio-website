@@ -1,6 +1,6 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
+   <!DOCTYPE html>
+   <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +22,11 @@
                <li class="nav__menu-item"><a href="#skills" class="nav__menu-link">Skills</a></li>
                <li class="nav__menu-item"><a href="#work" class="nav__menu-link">Work</a></li>
                <li class="nav__menu-item"><a href="#contact" class="nav__menu-link">Contact</a></li>
+               <li class="nav__menu-item"><i class='bx bxs-moon'></i></li>
             </ul>
+            <div class="nav__toggle" id="nav-toggle">
+               <i class='bx bx-menu'></i>
+           </div>
          </nav>
       </header>
       <main>
@@ -34,9 +38,7 @@
                      <br>Web Developer
                   </h1>
                </div>
-               <button class="home-contact__btn">
-                  <a href="#contact">Contact</a>
-               </button>
+                  <a class="home-contact__btn btn-style" href="#contact">Contact</a>
                <div class="home-social">
                   <i class="bx bxl-github"></i>
                </div>
@@ -110,12 +112,23 @@
          <section class="work" id="work">
             <h2 class="work__header header-style">Work</h2>
             <div class="work-wrapper">
-               <img src="assets/img/work1.jpg" alt="">
-               <img src="assets/img/work2.jpg" alt="">
-               <img src="assets/img/work3.jpg" alt="">
-               <img src="assets/img/work4.jpg" alt="">
-               <img src="assets/img/work5.jpg" alt="">
-               <img src="assets/img/work6.jpg" alt=""></div>
+               <img class="work__img work1" src="assets/img/work1.jpg" alt="">
+               <img class="work__img work2" src="assets/img/work2.jpg" alt="">
+               <img class="work__img work3" src="assets/img/work3.jpg" alt="">
+               <img class="work__img work4" src="assets/img/work4.jpg" alt="">
+               <img class="work__img work5" src="assets/img/work5.jpg" alt="">
+               <img class="work__img work6" src="assets/img/work6.jpg" alt=""></div>
+         </section>
+         <section class="contact" id="contact">
+            <h2 class="contact__header header-style">Contact</h2>
+            <div class="contact-form__container">
+               <form action="" class="contact__form">
+                  <input class="contact__input" type="text" name="name" placeholder="Name" id="" required>
+                  <input class="contact__input" type="email" name="email" placeholder="Email" id="" required>
+                  <textarea class="contact__input" name="message" id="" cols="0" rows="10" maxlength="250" placeholder="Message" ></textarea>
+                  <button type="submit" class="contact__form-btn btn-style">Send</button>
+               </form>
+            </div>
          </section>
       </main>
    </div>

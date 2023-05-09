@@ -166,7 +166,7 @@ scrollReveal.reveal('.home__social-icon',{ interval: 200});
 scrollReveal.reveal('.skills-data, .skills__img, .work__img, .contact__input',{interval: 200});
 
 var typeEffect = new Typed("#header-text", {
-   strings: [`Hi, ^250<br>I'am <span class="home-text__header_colored">Cristian</span>^350
+   strings: [`Hi, ^250<br>I'm <span class="home-text__header_colored">Cristian</span>^350
    <br>Web Developer`],
    startDelay: 1500, 
    typeSpeed: 75,   

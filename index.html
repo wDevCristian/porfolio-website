@@ -7,6 +7,8 @@
    <title>Portfolio</title>
    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
    <link rel="stylesheet" href="style/style.css">
+   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js" defer></script>
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js" defer></script>
    <script src="main.js" defer></script>
 </head>
 <body>
@@ -32,15 +34,18 @@
       <main>
          <section class="home" id="home">
             <div class="home-data">
-               <div class="home-text">
-                  <h1 class="home-text__header">
-                     Hi,<br>I'am <span class="home-text__header_colored">Cristian</span>
-                     <br>Web Developer
+               <div class="home-text" id="text">
+                  <h1 class="home-text__header" id="header-text">
+                     <!-- Hi,<br>I'am <span class="home-text__header_colored">Cristian</span>
+                     <br>Web Developer -->
                   </h1>
+                  <span id="carriage"></span>
                </div>
                   <a class="home-contact__btn btn-style" href="#contact">Contact</a>
                <div class="home-social">
-                  <i class="bx bxl-github"></i>
+                  <a href="https://github.com/wDevCristian">
+                     <i class="bx bxl-github"></i>
+                  </a>
                </div>
             </div>
             <div class="home__img">

@@ -146,24 +146,21 @@ function loadPreferences(theme) {
    }
 }
 
-// De implementat scrollReveal
-// De adaugat site-ul la google analytics
-// De scris documentatia
-
-// SCROLL REVEAL ANIMATION 
+// Scroll reveal animation
 
 const scrollReveal = ScrollReveal({
    origin: 'top',
    distance: '60px',
    duration: 2000,
    delay: 200,
-//     reset: true
 });
 
 scrollReveal.reveal('.home-data, .about-data__img, .skills-text__header, .skills-text__subtext',{}); 
 scrollReveal.reveal('.home__img, .about-text__subtext, .about-text',{delay: 400}); 
 scrollReveal.reveal('.home__social-icon',{ interval: 200}); 
 scrollReveal.reveal('.skills-data, .skills__img, .work__img, .contact__input',{interval: 200});
+
+// Typography effect
 
 var typeEffect = new Typed("#header-text", {
    strings: [`Hi, ^250<br>I'm <span class="home-text__header_colored">Cristian</span>^350
